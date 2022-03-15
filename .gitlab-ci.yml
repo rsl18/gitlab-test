@@ -1,0 +1,9 @@
+
+stages:
+    - debug
+
+debug : &DEBUG
+    stage: debug
+    script:
+        - echo $TRIGGER_PAYLOAD
+
